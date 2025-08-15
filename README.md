@@ -33,5 +33,4 @@ Hiện tại, tôi đang phát triển một số dự án cá nhân và đang t
 
 ### 🌐 Kết nối với tôi
 
-* **LinkedIn**: [Link đến LinkedIn của bạn]
-* **Email**: [Email của bạn]
+* **Email**: [imshydev@gmail.com]
