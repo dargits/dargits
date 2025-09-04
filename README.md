@@ -29,6 +29,94 @@ Hiện tại, tôi đang phát triển một số dự án cá nhân và đang t
     * **Công nghệ sử dụng**: Java, Spring Data JPA, MySQL.
     * **Liên kết**: [Link đến repository dự án]
 
+```
+.
+└── urlto/
+    ├── .mvn/
+    │   └── wrapper/
+    │       └── maven-wrapper.properties
+    ├── src/
+    │   ├── main/
+    │   │   ├── java/
+    │   │   │   └── app/
+    │   │   │       └── urlto/
+    │   │   │           ├── controller/
+    │   │   │           │   ├── api/
+    │   │   │           │   │   ├── AuthController.java
+    │   │   │           │   │   ├── LinkController.java
+    │   │   │           │   │   └── WebInforController.java
+    │   │   │           │   └── web/
+    │   │   │           │       └── WebControler.java
+    │   │   │           ├── dto/
+    │   │   │           │   ├── request/
+    │   │   │           │   │   ├── LinkRequest.java
+    │   │   │           │   │   ├── LoginRequest.java
+    │   │   │           │   │   └── RegisterRequest.java
+    │   │   │           │   └── response/
+    │   │   │           │       ├── BaseResponse.java
+    │   │   │           │       ├── ErrorResponse.java
+    │   │   │           │       └── WebInforResponse.java
+    │   │   │           ├── entity/
+    │   │   │           │   ├── Link.java
+    │   │   │           │   ├── Role.java
+    │   │   │           │   └── User.java
+    │   │   │           ├── exceptions/
+    │   │   │           │   ├── linkexceptions/
+    │   │   │           │   │   ├── CustomShortCodeException.java
+    │   │   │           │   │   ├── OriginalLinkException.java
+    │   │   │           │   │   ├── ShortCodeExistsException.java
+    │   │   │           │   │   └── ShortCodeLengthException.java
+    │   │   │           │   ├── userexceptions/
+    │   │   │           │   │   ├── AccountExistsException.java
+    │   │   │           │   │   ├── InvalidPasswordException.java
+    │   │   │           │   │   ├── PasswordNotMatchException.java
+    │   │   │           │   │   └── UserNotFoundException.java
+    │   │   │           │   └── GlobalExceptionHandler.java
+    │   │   │           ├── repository/
+    │   │   │           │   ├── LinkRepository.java
+    │   │   │           │   ├── RoleRepository.java
+    │   │   │           │   └── UserRepository.java
+    │   │   │           ├── sercurity/
+    │   │   │           │   ├── JwtAuthenticationFilter.java
+    │   │   │           │   ├── JwtTokenProvider.java
+    │   │   │           │   └── SecurityConfig.java
+    │   │   │           ├── service/
+    │   │   │           │   ├── impl/
+    │   │   │           │   │   ├── AuthServiceImpl.java
+    │   │   │           │   │   ├── CurrentUserDetails.java
+    │   │   │           │   │   ├── CustomUserDetails.java
+    │   │   │           │   │   ├── LinkServiceImpl.java
+    │   │   │           │   │   └── WebInforService.java
+    │   │   │           │   ├── AuthService.java
+    │   │   │           │   └── LinkService.java
+    │   │   │           ├── webcontants/
+    │   │   │           │   └── Webcontants.java
+    │   │   │           └── UrltoApplication.java
+    │   │   └── resources/
+    │   │       ├── templates/
+    │   │       │   ├── auth/
+    │   │       │   │   ├── login.html
+    │   │       │   │   └── register.html
+    │   │       │   ├── create-link.html
+    │   │       │   ├── dashboard.html
+    │   │       │   ├── index.html
+    │   │       │   └── payoutrates.html
+    │   │       ├── application.properties
+    │   │       └── data.sql
+    │   └── test/
+    │       └── java/
+    │           └── app/
+    │               └── urlto/
+    │                   └── UrltoApplicationTests.java
+    ├── .gitattributes
+    ├── .gitignore
+    ├── HELP.md
+    ├── mvnw
+    ├── mvnw.cmd
+    ├── pom.xml
+    └── README.md
+```
+
 ---
 
 ### 🌐 Kết nối với tôi
