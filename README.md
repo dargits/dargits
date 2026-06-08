@@ -16,18 +16,36 @@ Tôi có kinh nghiệm làm việc với các công nghệ chính sau:
 
 ---
 
+#---
+
 ### 🚀 Dự án tiêu biểu
 
-Hiện tại, tôi đang tập trung phát triển các dự án cá nhân nhằm tối ưu hóa hiệu năng hệ thống và áp dụng các giải pháp thực tế.
+Hiện tại, tôi tập trung phát triển các dự án cá nhân nhằm nâng cao tư duy thiết kế hệ thống và giải quyết các bài toán thực tế.
 
-* **Short URL Service – Hệ thống rút gọn & quản lý URL**
-    * **Mô tả**: Thiết kế và xây dựng hệ thống RESTful API theo mô hình MVC cho phép tạo mã link rút gọn (6 ký tự), điều hướng link và quản lý liên kết theo từng người dùng. Dự án được thiết kế để tối ưu hóa hiệu năng cơ sở dữ liệu và tích hợp các tính năng phân tích nâng cao.
-    * **Tính năng nổi bật**: 
-        * Xác thực người dùng bằng cơ chế Token-based Authentication qua mã UUID có đặt thời gian hết hạn (TTL 7 ngày)[cite: 2].
-        * Tự động theo dõi (tracking) số lượt click chuột theo địa chỉ IP và xác định quốc gia (GeoIP)[cite: 2].
-        * Định hướng phát triển (Future feature): Triển khai hệ thống bộ nhớ đệm (Cache) bằng Redis và sử dụng các công việc chạy ngầm (Scheduled Jobs) để tự động đồng bộ dữ liệu phân tích từ Redis về MySQL định kỳ[cite: 2].
-    * **Công nghệ sử dụng**: Java 17, Spring Boot, MySQL, Redis, Spring Data JPA, Maven[cite: 2].
-    * **Liên kết**: [https://github.com/dargits/roadtosemv](https://github.com/dargits/roadtosemv)[cite: 2]
+#### 🔗 Short URL Service – Hệ thống rút gọn & quản lý URL
+*Hệ thống cung cấp dịch vụ rút gọn liên kết, điều hướng và phân tích dữ liệu lượt nhấp.*
+
+*   **Công nghệ sử dụng**: 
+    ![Java](https://img.shields.io/badge/Java_17-007396?style=flat-square&logo=java&logoColor=white)
+    ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
+    ![MySQL](https://img.shields.io/badge/MySQL_8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)
+    ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+    ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white)
+
+*   **Kiến trúc hệ thống**:
+    *   Xây dựng hệ thống **RESTful API** theo mô hình **MVC** hoàn chỉnh.
+    *   Tối ưu hóa logic tạo mã link rút gọn ngẫu nhiên với độ dài **6 ký tự** và xử lý điều hướng liên kết (Redirect)[cite: 2].
+
+*   **Tính năng & Bảo mật**:
+    *   **Authentication**: Triển khai cơ chế xác thực người dùng dựa trên *Token-based Authentication* (sử dụng mã UUID có đặt thời gian hết hạn TTL 7 ngày) lưu trữ trực tiếp trên **Redis**[cite: 2].
+    *   **Analytics**: Tích hợp giải pháp **GeoIP** để tự động theo dõi (tracking) số lượng click, phân tích địa chỉ IP và xác định quốc gia của người dùng[cite: 2].
+
+*   **Định hướng phát triển (Future Roadmap)**:
+    *   Xây dựng các công việc chạy ngầm (**Scheduled Jobs**) để tự động gom log và đồng bộ dữ liệu phân tích từ Redis về MySQL định kỳ mỗi 5 phút nhằm giảm tải tối đa cho database gốc[cite: 2].
+
+*   **Mã nguồn dự án**: 📂 [github.com/dargits/roadtosemv](https://github.com/dargits/roadtosemv)
+
+---
 
 ---
 
