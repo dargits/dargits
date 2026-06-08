@@ -16,7 +16,7 @@ Tôi có kinh nghiệm làm việc với các công nghệ chính sau:
 
 ---
 
-#---
+
 
 ### 🚀 Dự án tiêu biểu
 
@@ -45,7 +45,7 @@ Hiện tại, tôi tập trung phát triển các dự án cá nhân nhằm nân
 
 *   **Mã nguồn dự án**: 📂 [github.com/dargits/roadtosemv](https://github.com/dargits/roadtosemv)
 
----
+
 
 ---
 
