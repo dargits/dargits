@@ -34,11 +34,10 @@ Hiện tại, tôi tập trung phát triển các dự án cá nhân nhằm nân
 
 *   **Kiến trúc hệ thống**:
     *   Xây dựng hệ thống **RESTful API** theo mô hình **MVC** hoàn chỉnh.
-    *   Tối ưu hóa logic tạo mã link rút gọn ngẫu nhiên với độ dài **6 ký tự** và xử lý điều hướng liên kết (Redirect)[cite: 2].
-
+    *   Tối ưu hóa logic tạo mã link rút gọn ngẫu nhiên với độ dài **6 ký tự** và xử lý điều hướng liên kết (Redirect).
 *   **Tính năng & Bảo mật**:
-    *   **Authentication**: Triển khai cơ chế xác thực người dùng dựa trên *Token-based Authentication* (sử dụng mã UUID có đặt thời gian hết hạn TTL 7 ngày) lưu trữ trực tiếp trên **Redis**[cite: 2].
-    *   **Analytics**: Tích hợp giải pháp **GeoIP** để tự động theo dõi (tracking) số lượng click, phân tích địa chỉ IP và xác định quốc gia của người dùng[cite: 2].
+    *   **Authentication**: Triển khai cơ chế xác thực người dùng dựa trên *Token-based Authentication* (sử dụng mã UUID có đặt thời gian hết hạn TTL 7 ngày) lưu trữ trực tiếp trên **Redis**.
+    *   **Analytics**: Tích hợp giải pháp **GeoIP** để tự động theo dõi (tracking) số lượng click, phân tích địa chỉ IP và xác định quốc gia của người dùng.
 
 *   **Định hướng phát triển (Future Roadmap)**:
     *   Xây dựng các công việc chạy ngầm (**Scheduled Jobs**) để tự động gom log và đồng bộ dữ liệu phân tích từ Redis về MySQL định kỳ mỗi 5 phút nhằm giảm tải tối đa cho database gốc
