@@ -18,16 +18,16 @@ Tôi có kinh nghiệm làm việc với các công nghệ chính sau:
 
 ### 🚀 Dự án tiêu biểu
 
-Hiện tại, tôi đang phát triển một số dự án cá nhân và đang tìm kiếm cơ hội để đóng góp vào các dự án mã nguồn mở.
+Hiện tại, tôi đang tập trung phát triển các dự án cá nhân nhằm tối ưu hóa hiệu năng hệ thống và áp dụng các giải pháp thực tế.
 
-* **[Tên dự án 1]**: (Ví dụ: Ứng dụng quản lý sinh viên)
-    * **Mô tả**: Xây dựng một hệ thống backend sử dụng **Spring Boot** để quản lý thông tin sinh viên, lớp học và điểm số.
-    * **Công nghệ sử dụng**: Java, Spring Boot, RESTful API, MySQL.
-    * **Liên kết**: [Link đến repository dự án]
-* **[Tên dự án 2]**: (Ví dụ: Website thương mại điện tử đơn giản)
-    * **Mô tả**: Phát triển hệ thống backend cho một website thương mại điện tử, xử lý các tác vụ như quản lý sản phẩm, giỏ hàng, và thanh toán.
-    * **Công nghệ sử dụng**: Java, Spring Data JPA, MySQL.
-    * **Liên kết**: [Link đến repository dự án]
+* **Short URL Service – Hệ thống rút gọn & quản lý URL**
+    * **Mô tả**: Thiết kế và xây dựng hệ thống RESTful API theo mô hình MVC cho phép tạo mã link rút gọn (6 ký tự), điều hướng link và quản lý liên kết theo từng người dùng. Dự án được thiết kế để tối ưu hóa hiệu năng cơ sở dữ liệu và tích hợp các tính năng phân tích nâng cao.
+    * **Tính năng nổi bật**: 
+        * Xác thực người dùng bằng cơ chế Token-based Authentication qua mã UUID có đặt thời gian hết hạn (TTL 7 ngày)[cite: 2].
+        * Tự động theo dõi (tracking) số lượt click chuột theo địa chỉ IP và xác định quốc gia (GeoIP)[cite: 2].
+        * Định hướng phát triển (Future feature): Triển khai hệ thống bộ nhớ đệm (Cache) bằng Redis và sử dụng các công việc chạy ngầm (Scheduled Jobs) để tự động đồng bộ dữ liệu phân tích từ Redis về MySQL định kỳ[cite: 2].
+    * **Công nghệ sử dụng**: Java 17, Spring Boot, MySQL, Redis, Spring Data JPA, Maven[cite: 2].
+    * **Liên kết**: [https://github.com/dargits/roadtosemv](https://github.com/dargits/roadtosemv)[cite: 2]
 
 ---
 
