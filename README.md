@@ -41,9 +41,9 @@ Hiện tại, tôi tập trung phát triển các dự án cá nhân nhằm nân
     *   **Analytics**: Tích hợp giải pháp **GeoIP** để tự động theo dõi (tracking) số lượng click, phân tích địa chỉ IP và xác định quốc gia của người dùng[cite: 2].
 
 *   **Định hướng phát triển (Future Roadmap)**:
-    *   Xây dựng các công việc chạy ngầm (**Scheduled Jobs**) để tự động gom log và đồng bộ dữ liệu phân tích từ Redis về MySQL định kỳ mỗi 5 phút nhằm giảm tải tối đa cho database gốc[cite: 2].
+    *   Xây dựng các công việc chạy ngầm (**Scheduled Jobs**) để tự động gom log và đồng bộ dữ liệu phân tích từ Redis về MySQL định kỳ mỗi 5 phút nhằm giảm tải tối đa cho database gốc
 
-*   **Mã nguồn dự án**: 📂 [github.com/dargits/roadtosemv](https://github.com/dargits/roadtosemv)
+*   **Mã nguồn dự án**: [github.com/dargits/roadtosemv](https://github.com/dargits/roadtosemv)
 
 
 
@@ -51,4 +51,4 @@ Hiện tại, tôi tập trung phát triển các dự án cá nhân nhằm nân
 
 ### 🌐 Kết nối với tôi
 
-* **Email**: [imshydev@gmail.com]
+* **Email**: imshydev@gmail.com
